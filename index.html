@@ -4,12 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://code.jquery.com/jquery.js"></script>
     <title>Coin Game</title>
 </head>
 <body>
     <h1>Coin Values Game!</h1>
-    <div id="instructions"></div>
+    <div id="instructions">
+        <p>
+            You will be given a random number at the start of the game.
+        </p>
+        <p>
+            There are four coins below. Each has a specific hidden value. By clicking on that coin you will add its value to your total score.
+        </p>
+        <p>
+            You win the game by matching your total score to the target, you lose if your score goes above the target.
+        </p>
+        <p>
+            Each time the game starts the values of the coins as well as the target will change.
+        </p>
+    </div>
     <div id="game"></div>
 
     <script type="text/javascript" src="assets/javascript/game.js"></script>

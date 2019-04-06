@@ -1,0 +1,69 @@
+button{
+    height: 150px;
+    width: 150px;
+}
+h1{
+    width: 600px;
+    background-color: grey;
+    text-align: center;
+}
+body{
+    background-image: url("../images/background.jpg");
+    width: 600px;
+}
+#instructions{
+    width: 600px;
+    height: 250px;
+    background-color: #00ccff;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 14pt;
+    padding-left: 10px;
+}
+#target-score{
+    width: 295px;
+    height: 50px;
+    font-size: 25pt;
+    position: relative;
+    float: left;
+    text-align: center;
+    padding-top: 18px;
+    background-color: grey;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+#score{
+    width: 295px;
+    height: 50px;
+    font-size: 25pt;
+    position: relative;
+    float: left;
+    text-align: center;
+    padding-top: 18px;
+    background-color: grey;
+    margin-right: 5px;
+}
+#wins{
+    width: 295px;
+    height: 25px;
+    font-size: 14pt;
+    position: relative;
+    float: left;
+    background-color: #00ccff;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    text-align: center;
+}
+#losses{
+    width: 295px;
+    height: 25px;
+    font-size: 14pt;
+    position: relative;
+    float: left;
+    background-color: #00ccff;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    text-align: center;
+}
